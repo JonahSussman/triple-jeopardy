@@ -1,0 +1,7 @@
+SELECT clues.id, clues.game, round, value, category, clue, answer
+FROM clues
+JOIN documents ON clues.id = documents.id
+JOIN classifications ON clues.id = classifications.clue_id
+JOIN categories ON classifications.category_id = categories.id
+-- WHERE <expression>
+;
