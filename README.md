@@ -38,7 +38,7 @@ The sqlite database is stored in the `clues.db` file. I would recommend using an
 
 [SQLite Browser]:https://www.sqlitebrowser.org
 
-The database is split into 5 tables:
+The database is split into 5 tables: 
 
 | Table name        | What it holds                                          |
 | ----------------- | ------------------------------------------------------ |
